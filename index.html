@@ -2,9 +2,18 @@
 -->
 
 <!DOCTYPE html>
+
+<link rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
 <html>
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+	main {
+		font-family: 'Roboto';
+	}
 	ul {
 		list-style-type: none;
 		margin: 0;
@@ -35,13 +44,24 @@
 		margin-right: auto;
 		text-align: center;
 		width: 50%;
+		font-family: 'Roboto';
 	}
 	input {
+		background: url('https://raw.githubusercontent.com/google/material-design-icons/63c5cb306073a9ecdfd3579f0f696746ab6305f6/src/search/manage_search/materialicons/24px.svg') top left no-repeat;
+		border-radius: 25px;
+		height: 30px;
 		margin-top: 10%;
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
 		width: 50%;
+		text-align: 50px;
+		font-family: 'Roboto';
+		padding-left: 30px;
+	}
+	input:focus {
+		background: none;
+	
 	}
 	#bottom_link {
 		text-align: center;
@@ -56,6 +76,7 @@
 		width: 100%;
 		text-align: center;
 		position: fixed;
+		font-family: 'Roboto';
 	}
 	footer ul{
 		margin: 0 auto;
@@ -89,10 +110,9 @@
 
 		<img id="image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
 
-	<br>
 
-		<img id="icon" src="/home/flyingpro/the_odin_project/google-homepage/outline_search_black_24dp.png"/>
-		<input type="text" placeholder= ""/>
+		
+		<input type="text" placeholder= "" />
 		<form>
 			<button type="submit"> Google Search </button>
 			<button type="submit"> I'm Feeling Lucky </button>
@@ -112,7 +132,6 @@
 	<br>
 	<br>
 
-
 	<footer>
 		<ul>
 			<li id=bottom> <a href="Google.com"> Advertising </a> </li>
@@ -123,4 +142,11 @@
 			<li id=bottom> <a href="Google.com"> Settings </a> </li>
 		</ul>
 	<footer>
+
+	<script>
+		let admin ="";
+		let name = "John";
+		admin = name;
+		<!--alert(admin);
+	</script>
 </html>
