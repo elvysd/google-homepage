@@ -1,0 +1,83 @@
+    main {
+        font-family: 'Roboto';
+	}
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	main li {
+		float: left;
+	}
+	a {
+		display: block;
+		padding: 15px;
+		color: black;
+		text-decoration: none;
+	}
+	.topright {
+		float: right;
+	}
+	#image {
+		margin-top: 10%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+
+	}
+	form {
+		padding: 5%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 50%;
+		font-family: 'Roboto';
+	}
+	input {
+		background: url('https://raw.githubusercontent.com/google/material-design-icons/63c5cb306073a9ecdfd3579f0f696746ab6305f6/src/search/manage_search/materialicons/24px.svg') top left no-repeat;
+		border-radius: 25px;
+		height: 30px;
+		margin-top: 10%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 50%;
+		text-align: 50px;
+		font-family: 'Roboto';
+		padding-left: 30px;
+	}
+	input:focus {
+		background: none;
+	
+	}
+	#bottom_link {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	footer{
+		background: lightgray;
+		padding: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		position: fixed;
+		font-family: 'Roboto';
+	}
+	footer ul{
+		margin: 0 auto;
+	}
+	footer li {
+		display:inline-block;
+		list-style-type: none;
+		padding: 0;
+	}
+	footer li a{
+		text-decoration: none;
+		color: #354052;
+
+	}
+	#test {
+		text-decoration: none;
+	}
